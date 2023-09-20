@@ -65,7 +65,7 @@ typedef struct bui
 
  int if_builtin(char *cmd);
  void handle_builtin(char **cmd1, char **av, int *statut, int idex, char **new_env);
- void _exit(char **comnd, char **av, int *statut, int idex, char **new_env);
+/* void _exit(char **comnd, char **av, int *statut, int idex, char **new_env);*/
  void _print(char **cmnd, char **av, int *statut, int idex, char **new_env);
 
  void change_directory(char **comnd, char **av, int *statut, int idex, char **new_env);
